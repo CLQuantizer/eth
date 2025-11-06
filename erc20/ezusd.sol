@@ -2,10 +2,10 @@
 pragma solidity ^0.8.0;
 
 /**
- * @title EZUSD
+ * @title ezUSD
  * @dev ERC20 Token with logo support
  */
-contract EZUSD {
+contract ezUSD {
     string public name;
     string public symbol;
     uint8 public decimals;

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./EZUSD.sol";
+import "./ezusd.sol";
 
 /**
  * @title DeployEZUSD
@@ -12,8 +12,8 @@ import "./EZUSD.sol";
  * Example HTTP: "https://yourdomain.com/assets/ezusd.png"
  */
 contract DeployEZUSD {
-    function deploy() public returns (EZUSD) {
-        return new EZUSD(
+    function deploy() public returns (ezUSD) {
+        return new ezUSD(
             "EZUSD",                // name
             "EZUSD",                // symbol
             6,                      // decimals
