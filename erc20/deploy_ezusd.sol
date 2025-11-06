@@ -16,8 +16,8 @@ contract DeployEZUSD {
         return new EZUSD(
             "EZUSD",                // name
             "EZUSD",                // symbol
-            18,                     // decimals
-            1000000000 * 10**18,    // totalSupply: 1 billion tokens
+            6,                      // decimals
+            1000000000 * 10**6,     // totalSupply: 1 billion tokens
             "ipfs://QmYourHashHere/ezusd.png"  // logoURI - replace with actual IPFS hash or URL
         );
     }
