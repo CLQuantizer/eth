@@ -11,6 +11,7 @@ keys/
 *.sol.js
 *.sol.ts
 *.sol.map
+*.bin
 
 # Build artifacts
 artifacts/
