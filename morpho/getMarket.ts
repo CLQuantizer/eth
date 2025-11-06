@@ -16,6 +16,7 @@ const marketId = process.env.MORPHO_MARKET_ID as MarketId;
 async function fetchMarketConfig() {
   console.log("Fetching market config id=", marketId);
   const config = await MarketParams.fetch(marketId, client);
+  console.log("Config:", config);
   console.log("Collateral Token:", config.collateralToken);
   console.log("Loan Token:", config.loanToken);
   console.log("LLTV:", config.lltv);
